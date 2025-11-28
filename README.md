@@ -180,58 +180,11 @@ dotnet run --project ImageAnalysis.csproj
 
 ---
 
-### 6.Assessment Task (Traveling Support Agent )
+### 6.Traveling Support Agent
 Multi-turn travel assistance chatbot that helps with trip planning, bookings, and travel support.
 ```bash
 dotnet run --project TravelingSupportAgent.csproj
 ```
-*Assessment task for building a comprehensive travel support agent*
-
-**Note**: This is an assessment task - implement the traveling support agent according to the requirements in the file.
-
-**Complete the assessment as described below to earn your certificate and badge!**
-
-Once you have finished implementing your multi-turn coding assistant chatbot in `TravelingSupportAgent.cs` and submitted your pull request, you will be eligible to receive an official certificate and badge from MLSA.
-
-> ![Sample Certificate and Badge](./images/certificate-sample.png)
-
-**How to claim your certificate and badge:**
-1. Complete all steps in the "Assessment Task" section.
-2. Submit your pull request and create an issue as instructed.
-3. After your submission is reviewed and approved, you will receive your personalized certificate and badge via email.
-
-### Submission
-
-- Follow the instructions below to commit your code, push your branch, and create a pull request for review.
-
-
-6. **Make a Pull Request**
-   - Push your changes:
-     ```bash
-     git add .
-     git commit -m "Complete assessment"
-     git push origin submission
-     ```
-   - Create a pull request from your `submission` branch to the `main` branch on the Your repository.
-
-   ![How to Make a PR - Step 1](./images/pr-image1.png)
-   ![How to Make a PR - Step 2](./images/pr-image2.png)
-
-    Follow the above images for a visual guide on creating a pull request.
-
-   **Tip:** After creating your pull request, copy the PR link from your browser's address bar. You will need this link when creating your submission issue in the next step.
-
-   ![How to Make a PR - Step 3](./images/pr-image3.png)
-
-7. **Create an Issue**
-  - Go to the [main repository](https://github.com/nisalgunawardhana/Github-models-starter-pro) and create an issue using the `submission` template.
-  - Fill in the following details:
-    - Full Name
-    - University
-    - Pull Request Link
-
-8. **Review and Certification**
-   - Once your submission is reviewed and approved, you will receive a badge and certificate.
 
 ## Notes
 
@@ -265,22 +218,10 @@ Sample .NET console app that demonstrates two quick ways to call AI model endpoi
 ## Next Steps
 
 - Explore each example to understand different AI integration patterns
-- Complete the traveling support agent assessment task
 - Modify the examples to suit your specific use cases
 - Add new examples for additional AI capabilities
 - Experiment with different models and parameters
 
-## Connect with Me
-
-Follow me on social media for more sessions, tech tips, and giveaways:
-
-- [LinkedIn](https://www.linkedin.com/in/nisalgunawardhana/) — Professional updates and networking
-- [Twitter (X)](https://x.com/thenisals) — Insights and announcements
-- [Instagram](https://www.instagram.com/thenisals) — Behind-the-scenes and daily tips
-- [GitHub](https://github.com/nisalgunawardhana) — Repositories and project updates
-- [YouTube](https://www.youtube.com/channel/UCNP5-zR4mN6zkiJ9pVCM-1w) — Video tutorials and sessions
-
-Feel free to connect and stay updated!
 
 ## License
 
