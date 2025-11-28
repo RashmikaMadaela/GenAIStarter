@@ -90,68 +90,20 @@ namespace GenAIStarter
 {
     /// <summary>
     /// Traveling Support Agent - Multi-turn travel assistance chatbot
-    /// Assessment Task: Implement a comprehensive travel support agent
     /// Run with: dotnet run --project TravelingSupportAgent.csproj
     /// </summary>
     public class TravelingSupportAgent
     {
         public static async Task Main(string[] args)
         {
-            // TODO: Implement the traveling support agent here
-            // Follow the assessment requirements above
             
-            Console.WriteLine("=== Traveling Support Agent Assessment ===");
-            Console.WriteLine("Welcome to your Travel Assistant implementation task!");
-            Console.WriteLine("\nPlease implement the traveling support agent according to the assessment requirements.");
-            Console.WriteLine("Check the comments above for detailed instructions.");
-            Console.WriteLine("\nFeatures to implement:");
-            Console.WriteLine("- Multi-turn conversation with memory");
-            Console.WriteLine("- Travel planning and itinerary assistance");
-            Console.WriteLine("- Destination recommendations");
-            Console.WriteLine("- Booking guidance and support");
-            Console.WriteLine("- Cultural information and tips");
-            Console.WriteLine("- Travel documentation help");
-            Console.WriteLine("- Emergency assistance");
-            Console.WriteLine("- Weather and packing advice");
-            Console.WriteLine("\nType 'exit' to quit when implemented.");
+            Console.WriteLine("=== Traveling Support Agent ===");
+            Console.WriteLine("Hi I'm Your Personal Travel Assistant!");
+            Console.WriteLine("\nI can help you with planning trips, booking guidance, destination recommendations, travel tips, and more.");
+            Console.WriteLine("\nType 'exit' to quit the chat at any time.\n");
             
-            // IMPLEMENTATION AREA - Add your code below this line
-            // =====================================================
-            
-            // Step 1: Load environment variables from .env file
-            // Hint: Look at other examples for the LoadEnvFile() method
 
             LoadEnvFile();
-
-            // Step 2: Get API configuration
-            // var token = Environment.GetEnvironmentVariable("API_TOKEN");
-            // var endpointUrl = Environment.GetEnvironmentVariable("API_ENDPOINT");
-            
-            // Step 3: Validate environment variables and show helpful errors
-            
-            // Step 4: Initialize the Azure AI client
-            // var endpoint = new Uri(endpointUrl);
-            // var client = new ChatCompletionsClient(endpoint, new AzureKeyCredential(token));
-            // var model = "gpt-4o";
-            
-            // Step 5: Create specialized system message for travel assistance
-            // var messages = new List<ChatRequestMessage>
-            // {
-            //     new ChatRequestSystemMessage(@"You are an expert travel support agent...")
-            // };
-            
-            // Step 6: Implement the conversation loop
-            // while (true)
-            // {
-            //     // Get user input
-            //     // Add user message to conversation history
-            //     // Send request to AI model
-            //     // Display response
-            //     // Add assistant response to conversation history
-            //     // Handle exit condition
-            // }
-            
-            // Step 7: Add error handling with try-catch blocks
             
             var token = Environment.GetEnvironmentVariable("API_TOKEN");
             var endpointUrl = Environment.GetEnvironmentVariable("API_ENDPOINT");
@@ -191,12 +143,12 @@ namespace GenAIStarter
                         - Provide weather information and packing suggestions
                         - Handle travel emergencies and problem-solving
                         - Support multiple destinations and travel styles (budget, luxury, adventure, etc.)
-                        - Provide clear, practical advice when helpful and ask follow up questions when needed.")
+                        - Provide clear, practical advice when helpful and ask follow up questions when needed.
+                        And make sure the conversation feel natural and engaging")
                 };
 
 
-
-                Console.WriteLine("Chat started! Ask me anything...\n");
+                Console.WriteLine("Let's plan your next adventure! Ask me anything...\n");
 
                 // Conversation loop
                 while (true)
@@ -262,14 +214,5 @@ namespace GenAIStarter
         }
 
     }
-        
-        // TODO: Add helper methods as needed
-        // Example: LoadEnvFile(), DisplayWelcomeMessage(), etc.
-        
-        // Helper method suggestion - implement this:
-        // private static void LoadEnvFile()
-        // {
-        //     // Load environment variables from .env file
-        //     // Look at other examples for reference
-        // }
+
 }
